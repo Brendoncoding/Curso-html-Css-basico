@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<link href="cssexterno.css" rel="stylesheet">
+	<!--CSS externo: para linkar um arquivo html em um css use a tag <link href='nome do arquivo" rel="stylesheet>"-->
+	<title>Cascade style sheet</title>
+	<!---css  interno :mudando a cor de todas as tags no html ,usando a tag desejada exemplo: p{color ="blue"}-->
+	<style>
+		th {
+			color: rgb(167, 48, 18);
+
+		}
+
+		h1 {
+			background-color: blue;
+		}
+	</style>
+	<!----``color:rgb ou rgba,para indicar a cor do texto ou elemento,sendo q rgb permite 3 cores e rgba 4 cores sendo a quarta a q define 
+	a opacidade,de "0 a 1" sendo 0 o mais trasparente e o "1"o mais escuro,é possivel usar virgulas pra definir melhor a transparencia-->
+
+
+</head>
+
+<body>
+	<a href="#logo_pizzaria">Logo pizzaria</a><br>
+	<a href="#lista">Lista de acompanhamentos</a><br>
+
+	<p style="color: rgb(255, 0, 0);">este texto é vermelho</p> <!-- css inline------>
+	<h1 id="topo">Página Principal</h1>
+	<h2 id="subtitulo"> Subtitulo</h2>
+	<p id="Paragrafo1">
+		<!--- ID: ,o id é melhor utilizado quando se refere a apenas um item,pra que n tenha confusão na identificação,
+			para q ele consiga identificar o ID é necessario usar a "#" pra ele n achar q é uma tag--->
+
+		Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que era
+		de Cinderela. Cinderela então, passou a viver com sua madrasta malvada, junto de suas duas filhas que tinham
+		inveja da beleza de Cinderela e transformaram-na em uma serviçal. Ela tinha de fazer todos os serviços
+		domésticos e ainda era alvo de deboches e malvadezas. Seu refúgio era o quarto no sótão da sua própria casa e
+		seus únicos amigos: os animais da floresta.
+	</p>
+	<!-- CLASS:Pode ser utilizado para marcar mais de um elemento,diferente do ID,é necessario usar o "." 
+		no css para ele n achar q é uma tag-->
+	<p class="Texto_marrom"> Esse é um <b>texto em negrito</b></p>
+	<p class="Texto_marrom"> Esse é um <strong>texto em negrito</strong>
+	<p class="Texto_marrom"> Esse é um <i>texto em itálico </i></p>
+	<p>Esse é um <em> texto em itálico </em> </p>
+	<p>Esse é um <mark>texto com marcação</mark></p>
+	<p>Esse é um texto <small>com tag small</small></p>
+	<p>Esse é um <s>texto que foi removido</s> e substitudo por esse</p>
+	<p>Esse é um <del>texto que foi removido</del> e substitudo por esse</p>
+	<!--semantica: diferencia a tag mais forte da mais "fraca","del" inves de "s"-->
+	<p>Esse é um <ins>texto que foi inserido</ins></p>
+	<p>Esse é um <sub>texto subscript</sub> </p>
+	<p>Esse é um <sup>texto superscript</sup> X <sup>2</sup>=10 </p>
+	<h2>Lista de refrigerantes </h2>
+	<img id="logo_pizzaria" src="./fotos/logo.jpeg" alt="logo da pizzaria" height="100"><strong>Pizzaiolo </strong>
+
+	<ul>
+		<li>Coca cola</li>
+		<li>Pepsi</li>
+		<li>Kuat</li>
+		</style>
+	</ul>
+	<h2 id="lista">Lista de acompanhamentos</h2>
+	<ol>
+		<li>Mussarela</li>
+		<li>Bacon</li>
+		<li>ketchup</li>
+
+
+	</ol>
+	<table>
+
+		<th id="sabores">Sabores</th>
+		<th>Tamanhos</th>
+		<th>Preços</th>
+
+		<tr>
+			<td>AMERICANA</td>
+			<td>GRANDE</td>
+			<td>R$44,99</td>
+		</tr>
+		<tr>
+			<td>MARGUERITA</td>
+			<td>GRANDE</td>
+			<td>R$40,99</td>
+		</tr>
+		<tr>
+			<td>CALABRESA</td>
+			<td>PEQUENA</td>
+			<td>R$45,00</td>
+		</tr>
+		<a href="#topo">retornar ao topo</a><br>
+
+</body>
+
+</html>
