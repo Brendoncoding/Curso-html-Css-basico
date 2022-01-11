@@ -1,0 +1,59 @@
+body{
+    background-image: url(./fotos/roasted_pork.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    /* background-color: #008000; */
+    position:relative;
+    padding-top:20px ;  
+}
+#content{
+    
+    background-color: rgba(31, 31, 32, 0.685);
+    width: 350px;
+    max-width: 90%;
+    max-height: 510px;
+    margin: auto;
+    position:relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    display: block;
+    margin: 20px auto 20px auto;
+    padding: 0.7rem;
+    border-radius: 5px; 
+}
+h2{
+    font-size: 1.2rem;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 1.8rem;
+}
+footer{
+    margin-top:20px;
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.521);  
+    
+}
+a, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: center;
+    color: rgb(225, 241, 72);
+}
+
+
+
