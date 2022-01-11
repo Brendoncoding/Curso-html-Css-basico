@@ -39,10 +39,8 @@ function Calcular() {
     else {
         document.getElementById("Carnekg").innerHTML = ` Você precisará de ${result.toFixed(3)} Gramas de carne`;
     }
+
+    // document.getElementById("Carnekg").innerHTML = ` Você precisará de Kg ${result.toFixed(2)} de carne`;
     document.getElementById("cerveja").innerHTML = `Você precisará de ${resultbeer.toFixed(0)} Litros de cerveja`;
     document.getElementById("refrigerante").innerHTML = `Você precisará de ${resultrefri.toFixed(0)} Litros de refrigerante`;
-}
-
-function verificar(){
-
 }
